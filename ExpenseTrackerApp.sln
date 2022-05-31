@@ -17,19 +17,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Application"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Domain", "ExpenseTracker.Domain\ExpenseTracker.Domain.csproj", "{0E022884-5093-4325-A3D3-E9F9E479A61D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Logging", "ExpenseTracker.Logging\ExpenseTracker.Logging.csproj", "{9A70E520-191D-4EE2-B49D-754FFDE530F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.Logging", "ExpenseTracker.Logging\ExpenseTracker.Infrastructure.Logging.csproj", "{9A70E520-191D-4EE2-B49D-754FFDE530F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Injection", "ExpenseTracker.Injection\ExpenseTracker.Injection.csproj", "{A2B4DA9A-161C-46C4-88F0-C91BD0D0B29A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.Injection", "ExpenseTracker.Injection\ExpenseTracker.Infrastructure.Injection.csproj", "{A2B4DA9A-161C-46C4-88F0-C91BD0D0B29A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.ExternalApi", "ExpenseTracker.ExternalApi\ExpenseTracker.ExternalApi.csproj", "{66315EE9-3059-497D-99E1-D797594D4F72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.ExternalApi", "ExpenseTracker.ExternalApi\ExpenseTracker.Infrastructure.ExternalApi.csproj", "{66315EE9-3059-497D-99E1-D797594D4F72}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistance", "Persistance", "{7B7AE251-CF93-40AD-B9E6-AEEC1D6D7B09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.MSSQL", "ExpenseTracker.MSSQL\ExpenseTracker.MSSQL.csproj", "{66F5D3A9-0F5C-47E2-9BE6-B92F3F48F090}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.MSSQL", "ExpenseTracker.MSSQL\ExpenseTracker.Infrastructure.MSSQL.csproj", "{66F5D3A9-0F5C-47E2-9BE6-B92F3F48F090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Redis", "ExpenseTracker.Redis\ExpenseTracker.Redis.csproj", "{1EC79730-2124-4C86-849E-7E8E910B4C28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.Redis", "ExpenseTracker.Redis\ExpenseTracker.Infrastructure.Redis.csproj", "{1EC79730-2124-4C86-849E-7E8E910B4C28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Services", "ExpenseTracker.Services\ExpenseTracker.Services.csproj", "{35B8A655-DCD4-4E8F-98B2-9FEA27C3912E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.Services", "ExpenseTracker.Services\ExpenseTracker.Infrastructure.Services.csproj", "{35B8A655-DCD4-4E8F-98B2-9FEA27C3912E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

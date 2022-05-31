@@ -10,8 +10,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ExpenseTracker.Application\ExpenseTracker.Application.csproj" />
-    <ProjectReference Include="..\ExpenseTracker.Injection\ExpenseTracker.Injection.csproj" />
-    <ProjectReference Include="..\ExpenseTracker.Logging\ExpenseTracker.Logging.csproj" />
+    <ProjectReference Include="..\ExpenseTracker.Injection\ExpenseTracker.Infrastructure.Injection.csproj" />
+    <ProjectReference Include="..\ExpenseTracker.Logging\ExpenseTracker.Infrastructure.Logging.csproj" />
   </ItemGroup>
 
 </Project>
