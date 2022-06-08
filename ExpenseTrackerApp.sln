@@ -11,27 +11,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{4A0E8361-0556-4FD1-820B-C57F7DE3BB6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.API", "ExpenseTracker.API\ExpenseTracker.API.csproj", "{8B2A5E32-F1E8-46FA-820C-194E12CE332D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseTracker.API", "ExpenseTracker.API\ExpenseTracker.API.csproj", "{8B2A5E32-F1E8-46FA-820C-194E12CE332D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Application", "ExpenseTracker.Application\ExpenseTracker.Application.csproj", "{962BC9EB-C76A-4654-ADE2-80799503B67D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseTracker.Application", "ExpenseTracker.Application\ExpenseTracker.Application.csproj", "{962BC9EB-C76A-4654-ADE2-80799503B67D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Domain", "ExpenseTracker.Domain\ExpenseTracker.Domain.csproj", "{0E022884-5093-4325-A3D3-E9F9E479A61D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseTracker.Domain", "ExpenseTracker.Domain\ExpenseTracker.Domain.csproj", "{0E022884-5093-4325-A3D3-E9F9E479A61D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.Logging", "ExpenseTracker.Logging\ExpenseTracker.Infrastructure.Logging.csproj", "{9A70E520-191D-4EE2-B49D-754FFDE530F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseTracker.Infrastructure.Logging", "ExpenseTracker.Logging\ExpenseTracker.Infrastructure.Logging.csproj", "{9A70E520-191D-4EE2-B49D-754FFDE530F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.Injection", "ExpenseTracker.Injection\ExpenseTracker.Infrastructure.Injection.csproj", "{A2B4DA9A-161C-46C4-88F0-C91BD0D0B29A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseTracker.Infrastructure.Injection", "ExpenseTracker.Injection\ExpenseTracker.Infrastructure.Injection.csproj", "{A2B4DA9A-161C-46C4-88F0-C91BD0D0B29A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.ExternalApi", "ExpenseTracker.ExternalApi\ExpenseTracker.Infrastructure.ExternalApi.csproj", "{66315EE9-3059-497D-99E1-D797594D4F72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseTracker.Infrastructure.ExternalApi", "ExpenseTracker.ExternalApi\ExpenseTracker.Infrastructure.ExternalApi.csproj", "{66315EE9-3059-497D-99E1-D797594D4F72}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistance", "Persistance", "{7B7AE251-CF93-40AD-B9E6-AEEC1D6D7B09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.MSSQL", "ExpenseTracker.MSSQL\ExpenseTracker.Infrastructure.MSSQL.csproj", "{66F5D3A9-0F5C-47E2-9BE6-B92F3F48F090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseTracker.Infrastructure.Persistance", "ExpenseTracker.MSSQL\ExpenseTracker.Infrastructure.Persistance.csproj", "{66F5D3A9-0F5C-47E2-9BE6-B92F3F48F090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.Redis", "ExpenseTracker.Redis\ExpenseTracker.Infrastructure.Redis.csproj", "{1EC79730-2124-4C86-849E-7E8E910B4C28}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.Services", "ExpenseTracker.Services\ExpenseTracker.Infrastructure.Services.csproj", "{35B8A655-DCD4-4E8F-98B2-9FEA27C3912E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6A1A3E99-9F45-40A5-AB8B-3BCB0264662A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseTracker.Infrastructure.Services", "ExpenseTracker.Services\ExpenseTracker.Infrastructure.Services.csproj", "{35B8A655-DCD4-4E8F-98B2-9FEA27C3912E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,10 +63,6 @@ Global
 		{66F5D3A9-0F5C-47E2-9BE6-B92F3F48F090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66F5D3A9-0F5C-47E2-9BE6-B92F3F48F090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66F5D3A9-0F5C-47E2-9BE6-B92F3F48F090}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1EC79730-2124-4C86-849E-7E8E910B4C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EC79730-2124-4C86-849E-7E8E910B4C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EC79730-2124-4C86-849E-7E8E910B4C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EC79730-2124-4C86-849E-7E8E910B4C28}.Release|Any CPU.Build.0 = Release|Any CPU
 		{35B8A655-DCD4-4E8F-98B2-9FEA27C3912E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{35B8A655-DCD4-4E8F-98B2-9FEA27C3912E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35B8A655-DCD4-4E8F-98B2-9FEA27C3912E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -88,9 +80,7 @@ Global
 		{66315EE9-3059-497D-99E1-D797594D4F72} = {4A0E8361-0556-4FD1-820B-C57F7DE3BB6C}
 		{7B7AE251-CF93-40AD-B9E6-AEEC1D6D7B09} = {4A0E8361-0556-4FD1-820B-C57F7DE3BB6C}
 		{66F5D3A9-0F5C-47E2-9BE6-B92F3F48F090} = {7B7AE251-CF93-40AD-B9E6-AEEC1D6D7B09}
-		{1EC79730-2124-4C86-849E-7E8E910B4C28} = {7B7AE251-CF93-40AD-B9E6-AEEC1D6D7B09}
 		{35B8A655-DCD4-4E8F-98B2-9FEA27C3912E} = {4A0E8361-0556-4FD1-820B-C57F7DE3BB6C}
-		{6A1A3E99-9F45-40A5-AB8B-3BCB0264662A} = {7B7AE251-CF93-40AD-B9E6-AEEC1D6D7B09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35241087-9811-45A2-95C7-08B04CCB047D}
