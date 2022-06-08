@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Infrastructure.Services", "ExpenseTracker.Services\ExpenseTracker.Infrastructure.Services.csproj", "{35B8A655-DCD4-4E8F-98B2-9FEA27C3912E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6A1A3E99-9F45-40A5-AB8B-3BCB0264662A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +90,7 @@ Global
 		{66F5D3A9-0F5C-47E2-9BE6-B92F3F48F090} = {7B7AE251-CF93-40AD-B9E6-AEEC1D6D7B09}
 		{1EC79730-2124-4C86-849E-7E8E910B4C28} = {7B7AE251-CF93-40AD-B9E6-AEEC1D6D7B09}
 		{35B8A655-DCD4-4E8F-98B2-9FEA27C3912E} = {4A0E8361-0556-4FD1-820B-C57F7DE3BB6C}
+		{6A1A3E99-9F45-40A5-AB8B-3BCB0264662A} = {7B7AE251-CF93-40AD-B9E6-AEEC1D6D7B09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35241087-9811-45A2-95C7-08B04CCB047D}
