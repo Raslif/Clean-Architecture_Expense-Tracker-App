@@ -3,7 +3,6 @@ using ExpenseTracker.Application.DTOs;
 using ExpenseTracker.Domain.Entities;
 using ExpenseTracker.Domain.Repositories.Command;
 using MediatR;
-using System;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -28,7 +27,7 @@ namespace ExpenseTracker.Application.Handlers.CommandHandlers
 
             var saveResponseDTO = new UserCommandResponseDTO()
             {
-                UserId = 1
+                UserId = userSaveResponse.Id
             };
 
             var res = new Response<UserCommandResponseDTO>(saveResponseDTO, true);
